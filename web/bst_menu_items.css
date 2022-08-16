@@ -1,0 +1,125 @@
+
+@import url(https://fonts.googleapis.com/css?family=Prosto+One);
+
+*
+{
+  -webkit-transition: all 0.3s ease;
+}
+
+body
+{
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', cursive;
+  background-image: url('company.jpg');
+  background-size: cover;
+}
+
+#login-form
+{
+  color: #777;
+  border: 5px solid #afafaf;
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 150px;
+  text-align: center;
+  padding: 30px;
+  padding-top: 30px;
+  border-radius: 20px;
+  background: #afafaf;
+}
+
+input
+{
+  color: #777;
+  font-weight: bold;
+  width: 50%;
+  margin-top: 10px;
+  padding: 7px;
+  text-align: center;
+  margin: 2px;
+  border: 1px solid #afafaf;
+  border-radius: 3
+      10px;
+  background: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+input[type="button"]
+{
+  color: white;
+  width: 30%;
+  border: 0px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="radio"]
+{
+  width: 10%;
+  margin-right: 0%;
+}
+
+input[type="text"]{
+  text-align: center;
+}
+
+#student
+{
+  padding-left: 2%;
+}
+
+#section
+{
+    padding-left: 2%;
+}
+
+#createuser
+{
+  background: skyblue;
+  width: 15%;
+  margin-left: 1%;
+  border-radius: 10px;
+
+}
+
+#search
+{
+  background: yellowgreen;
+  width: 15%;
+  margin-left: 1%;
+  border-radius: 10px;
+}
+
+#update
+{
+  background: orange;
+  width: 15%;
+  margin-left: 1%;
+  border-radius: 10px;
+}
+
+#print
+{
+  background: #35538f;
+  width: 15%;
+  margin-left: 1%;
+  border-radius: 10px;
+}
+
+#delete
+{
+  background: #ff6348;
+  width: 15%;
+  margin-left: 1%;
+  border-radius: 10px;
+}
